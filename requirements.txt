@@ -1,0 +1,7 @@
+pyrogram
+tgcrypto
+tidal-dl
+hachoir
+aiohttp
+psycopg2
+python-dotenv
