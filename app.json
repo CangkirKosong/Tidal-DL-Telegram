@@ -1,0 +1,120 @@
+{
+  "name": "Tidal-Dl Bot",
+  "description": "Telegram bot to download tidal songs",
+  "keywords": [
+    "telegram",
+    "music",
+    "uploader"
+  ],
+  "website": "https://github.com/vinayak-7-0-3/Tidal-DL-Telegram",
+  "repository": "https://github.com/vinayak-7-0-3/Tidal-DL-Telegram",
+  "success_url": "https://github.com/vinayak-7-0-3/Tidal-DL-Telegram",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Your Telegram bot token",
+      "value": "",
+      "required": true
+    },
+    "APP_ID": {
+      "description": "Your Telegram App ID",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram App Hash",
+      "value": "",
+      "required": true
+    },
+    "USER_SESSION": {
+      "description": "User string session for searching files",
+      "value": "",
+      "required": false
+    },
+    "AUTH_CHAT": {
+      "description": "Chats where the bot will work",
+      "value": "",
+      "required": true
+    },
+    "ADMINS": {
+      "description": "ID of Admins (ie SUDO Access)",
+      "value": "",
+      "required": true
+    },
+    "LOG_CHANNEL_ID": {
+      "description": "Log channel ID (Mandotary if setting below var to True)",
+      "value": "",
+      "required": false
+    },
+    "ALLOW_DUMP": {
+      "description": "Allow dump",
+      "value": "False",
+      "required": true
+    },
+    "SEARCH_CHANNEL": {
+      "description": "Channel/group ID to search already downloaded songs",
+      "value": "",
+      "required": false
+    },
+    "IS_BOT_PUBLIC": {
+      "description": "Want to allow public access to bot ? (True/False)",
+      "value": "True",
+      "required": true
+    },
+    "AUTH_USERS": {
+      "description": "Users who can access the bot (needed only is bot set to private)",
+      "value": "",
+      "required": false
+    },
+    "INLINE_THUMB": {
+      "description": "Thumb/Icon for inline search",
+      "value": "",
+      "required": false
+    },
+    "TIDAL_REGION": {
+      "description": "Tidal region for search api (recomment to use default)",
+      "value": "",
+      "required": true
+    },
+    "TIDAL_SEARCH_LIMIT": {
+      "description": "Limit number of search results",
+      "value": "",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "Username of your bot (use with or without @)",
+      "value": "",
+      "required": true
+    },
+    "ENV": {
+      "description": "Ignore this XD",
+      "value": "YEMS YEMS",
+      "required": true
+    },
+    "MUSIC_CHANNEL_LINK": {
+      "description": "Link to your music channel",
+      "value": "",
+      "required": false
+    },
+    "ALLOW_OTHER_LINKS": {
+      "description": "If to allow automatic conversion of other music platform links to Tidal links while downloading.",
+      "value": "False",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
