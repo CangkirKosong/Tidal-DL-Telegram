@@ -24,7 +24,7 @@ async def download_tidal(bot, update):
             link = None
 
         if link:
-            LOGGER.info(f"Download Initiated By - {update.from_user.first_name}")
+            LOGGER.info(f"Download Initiated By - {update.from_user.full_name}")
             msg = await bot.send_message(
                 chat_id=update.chat.id,
                 text=lang.select.INIT_DOWNLOAD,
