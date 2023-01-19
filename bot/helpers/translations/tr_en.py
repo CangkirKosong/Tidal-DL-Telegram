@@ -32,8 +32,8 @@ Help for each command is in shown when you type the command.
 Feel free to ask doubts in Discussion Group.
 """
 
-    INIT_DOWNLOAD = "Trying to initialize download...\nPlease Wait..!!"
-    DOWNLOAD_DONE = "Download completed.\nCheck @DumpTidal"
+    INIT_DOWNLOAD = "Start Downloading...\nPlease Wait..!!"
+    DOWNLOAD_DONE = "𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞𝐝.\n𝐆𝐞𝐭 𝐒𝐨𝐧𝐠 𝐨𝐧 @DumpTidal"
     FILE_EXIST = "File already exist in the channel.\n\nTitle : <code>{}</code>\n\nClick below to get file."
     ALREADY_AUTH = "Your authentication is already done.\nIts is valid for {}"
     NO_AUTH = "AUTH DISABLED"
@@ -57,23 +57,23 @@ Flags are :
     INLINE_NO_RESULT = "No results found"
 
     INPUT_MESSAGE_TRACK = """
-💽 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-💿 <b>Album :</b> {2}
-🕒 <b>Duration :</b> {3}
+𝐓𝐈𝐓𝐋𝐄 : {0}
+𝐀𝐑𝐓𝐈𝐒𝐓 : {1}
+𝐀𝐋𝐁𝐔𝐌 : {2}
+𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍 : {3}
 """
 
     INPUT_MESSAGE_ALBUM = """
-💽 <b>Title :</b> {0}
-👤 <b>Artist :</b> {1}
-📀 <b>Tracks :</b> {2}
-📅 <b>Release Date :</b> {3}
+𝐓𝐈𝐓𝐋𝐄 : {0}
+𝐀𝐑𝐓𝐈𝐒𝐓 : {1}
+𝐓𝐑𝐀𝐂𝐊𝐒 : {2}
+𝐑𝐄𝐋𝐄𝐀𝐒𝐄 : {3}
 """
 
     INLINE_MEDIA_SEARCH = """
-<b>Title :</b> {0}
+𝐓𝐈𝐓𝐋𝐄 : {0}
 
-<b>Artist :</b> {1}
+𝐀𝐑𝐓𝐈𝐒𝐓 : {1}
 """
 #
 #
@@ -81,15 +81,15 @@ Flags are :
 #
 #
     ALBUM_DETAILS = """
-💽 <b>Title/Album :</b> {0}
-👤 <b>Artist :</b> {1}
-📅 <b>Release Date :</b> {2}
-📀 <b>Number of Tracks :</b> {3}
+𝐀𝐋𝐁𝐔𝐌 : {0}
+𝐀𝐑𝐓𝐈𝐒𝐓 : {1}
+𝐑𝐄𝐋𝐄𝐀𝐒𝐄 : {2}
+𝐓𝐎𝐓𝐀𝐋 𝐓𝐑𝐀𝐂𝐊𝐒 : {3}
 """
 
     # For keeping the fancy designs
-    USER_MENTION_ALBUM = "❤️ <b>Requested by :</b> {}"
-    USER_MENTION_TRACK = "Requested by {}"
+    USER_MENTION_ALBUM = "𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : {}"
+    USER_MENTION_TRACK = "𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 {}"
 #
 #
 # CHATS AUTH MSGS
