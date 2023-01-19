@@ -33,11 +33,11 @@ Feel free to ask doubts in Discussion Group.
 """
 
     INIT_DOWNLOAD = "Start Downloading...\nPlease Wait..!!"
-    DOWNLOAD_DONE = "𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞𝐝.\n𝐆𝐞𝐭 𝐒𝐨𝐧𝐠 𝐨𝐧 @DumpTidal"
+    DOWNLOAD_DONE = "ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴘʟᴇᴛᴇᴅ.\nɢᴇᴛ ꜱᴏɴɢ ᴏɴ @DumpTidal @TidalXyz"
     FILE_EXIST = "File already exist in the channel.\n\nTitle : <code>{}</code>\n\nClick below to get file."
     ALREADY_AUTH = "Your authentication is already done.\nIts is valid for {}"
     NO_AUTH = "AUTH DISABLED"
-    ANTI_SPAM_WAIT = "Hey 🖕 Wait for the current task to finish.\n⛔️ DON'T SPAM...!!!"
+    ANTI_SPAM_WAIT = "ʜᴇʏ ᴡᴀɪᴛ ꜰᴏʀ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴛᴀꜱᴋ ᴛᴏ ꜰɪɴɪꜱʜ.\nDON'T SPAM...!!! ⛔️"
 #
 #
 # INLINE MODE TEXTS..............................................................
@@ -89,7 +89,7 @@ Flags are :
 
     # For keeping the fancy designs
     USER_MENTION_ALBUM = "𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : {}"
-    USER_MENTION_TRACK = "𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 {}"
+    USER_MENTION_TRACK = "𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚍 𝙱𝚢 {}"
 #
 #
 # CHATS AUTH MSGS
