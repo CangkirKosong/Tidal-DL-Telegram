@@ -164,6 +164,6 @@ API Key Valid : <code>{2}</code>
 #
     ERR_VARS = "Required Variables Missing......\nPlease check everything again."
     ERR_AUTH_CHECK = "Couldn't download because : {}"
-    ERR_NO_LINK = "Use /d <link tidal>\nREAD https://t.me/tidXqob/558188"
+    ERR_NO_LINK = "Use /d <code>link tidal</code>\nREAD https://t.me/tidXqob/558188"
     ERR_INDEX = "Error while indexing.\n\n{}"
     ERR_API_KEY = "API Key Deprecated. Please change your API Key Index."
