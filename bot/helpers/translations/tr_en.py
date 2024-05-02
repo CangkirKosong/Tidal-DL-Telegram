@@ -81,15 +81,15 @@ Flags are :
 #
 #
     ALBUM_DETAILS = """
-🎵 ᴀʟʙᴜᴍ : {0}
-👤 ᴀʀᴛɪꜱᴛ : {1}
-📅 ʀᴇʟᴇᴀꜱᴇ : {2}
-🔢 ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ : {3}
+● <b>ᴀʟʙᴜᴍ :</b> <code>{0}</code>
+● <b>ᴀʀᴛɪꜱᴛ :</b> <code>{1}</code>
+● <b>ʀᴇʟᴇᴀꜱᴇ :</b> <code>{2}</code>
+● <b>ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ :</b> <code>{3}</code>
 """
 
     # For keeping the fancy designs
-    USER_MENTION_ALBUM = "👽 ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ {}"
-    USER_MENTION_TRACK = "𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚍 𝙱𝚢 {}"
+    USER_MENTION_ALBUM = "● ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ʙʏ {}"
+    USER_MENTION_TRACK = "<b> 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚍 𝙱𝚢</b> <code>{}</code>"
 #
 #
 # CHATS AUTH MSGS
